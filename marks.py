@@ -1,0 +1,10 @@
+marks1=int(input("Enter marks1:"))
+marks2=int(input("Enter marks2:"))
+marks3=int(input("Enter marks3:"))
+marks_list=[marks1,marks2,marks3]
+total=sum(marks_list)
+Higest_marks=max(marks_list)
+lowest_marks=min(marks_list)
+print("Total marks:",total)
+print("Highest marks:",Higest_marks)
+print("Lowest marks:",lowest_marks)
