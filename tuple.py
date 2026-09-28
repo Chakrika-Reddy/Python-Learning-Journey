@@ -1,0 +1,7 @@
+marks=(44,55,66,77,88)
+print(marks[0])
+tup=(1,)
+print(type(tup))
+print(tup)
+print(marks.index(55))
+print(marks.count(66))
